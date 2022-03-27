@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: minhaFonte;
+    src: url(../fontes/Pangolin/Pangolin-Regular.ttf);
+}
+
+body{
+    font-family: minhaFonte;
+    background-color: lightgrey;
+}
+
+#head{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#title{
+    font-size: 50pt;
+    color: #6699ff;
+}
+
+#container{
+    background-color: grey;
+    width: 100%;
+    height: 30rem;
+    margin-top: 10rem;
+}
+
+#subTitle{
+    text-align: center;
+    font-size: 25pt;
+}
+
+#names{
+    text-align: center;
+    font-size: 15pt;
+    margin-bottom: 5rem;
+}
+
+#enterNames{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2rem;
+    font-family: minhaFonte;
+}
+
+#btn{
+    display: block;
+    margin: auto;
+    width: 8rem;
+    height: 5rem;
+    background-color: #99bbff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-family: minhaFonte;
+}
+
+#btn:hover{
+    background-color: #3377ff;
+}
+
+#resultContainer{
+    text-align: center;
+}
